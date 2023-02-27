@@ -1,0 +1,35 @@
+body {
+    background-color: hsla(0, 40%, 48%, 0.315);
+}
+
+div.row {
+    place-content: center;
+}
+
+div.card-body {
+    background: rgb(224, 224, 224);
+}
+
+div.card.col-sm-4 {
+    background: rgb(224, 224, 224);
+    height: 500px;
+    padding: 5px 15px 5px 15px;
+}
+
+#boton-vaciar.btn.btn-danger {
+    background: firebrick;
+}
+
+aside.col-sm-4 {
+    background: rgb(224, 224, 224);
+    margin: 15px;
+    height: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+img.img-fluid {
+    height: 300px;
+    box-sizing: border-box;
+
+}
