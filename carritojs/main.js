@@ -27,7 +27,6 @@ const baseDeDatos = [
 
 ];
 
-
 let carrito = [];
 const divisa = '$';
 const DOMitems = document.querySelector('#items');
@@ -36,6 +35,7 @@ const DOMtotal = document.querySelector('#total');
 const DOMbotonVaciar = document.querySelector('#boton-vaciar');
 
 // Funciones
+
 
 /**
 * Dibuja todos los productos a partir de la base de datos. No confundir con el carrito
@@ -200,3 +200,13 @@ DOMbotonVaciar.addEventListener('click', vaciarCarrito);
 // Inicio
 renderizarProductos();
 renderizarCarrito();
+
+//Storange
+const cocina = { id: 2, producto: "cocina"};
+localStorage.setItem("Cocina", cocina);
+const licudora = { id: 2, producto: "Licuadora"};
+localStorage.setItem("Licuadora", licudora);
+const batidora = { id: 2, producto: "Batidora"};
+localStorage.setItem("Batidora", batidora);
+const vaporera = { id: 2, producto: "Vaporera"};
+localStorage.setItem("Vaporera", vaporera);
