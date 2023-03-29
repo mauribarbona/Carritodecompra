@@ -202,11 +202,11 @@ renderizarProductos();
 renderizarCarrito();
 
 //Storange
-const cocina = { id: 2, producto: "cocina"};
+const cocina = { id: 1, producto: "cocina"};
 localStorage.setItem("Cocina", cocina);
 const licudora = { id: 2, producto: "Licuadora"};
 localStorage.setItem("Licuadora", licudora);
-const batidora = { id: 2, producto: "Batidora"};
+const batidora = { id: 3, producto: "Batidora"};
 localStorage.setItem("Batidora", batidora);
-const vaporera = { id: 2, producto: "Vaporera"};
+const vaporera = { id: 4, producto: "Vaporera"};
 localStorage.setItem("Vaporera", vaporera);
