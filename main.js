@@ -4,25 +4,25 @@ const baseDeDatos = [
       id: 1,
       nombre: 'Cocina',
       precio: 90.0,
-      imagen: 'cocina.jpg'
+      imagen: 'carritojs/cocina.jpg'
   },
   {
       id: 2,
       nombre: 'Licuadora',
       precio: 20.0,
-      imagen: 'licua.jpg'
+      imagen: 'carritojs/licua.jpg'
   },
   {
       id: 3,
       nombre: 'Batidora',
       precio: 50.0,
-      imagen: 'bati.jpg'
+      imagen: 'carritojs/bati.jpg'
   },
   {
       id: 4,
       nombre: 'Vaporera',
       precio: 40.0,
-      imagen: 'vapo.jpg'
+      imagen: 'carritojs/vapo.jpg'
   }
 
 ];
@@ -35,6 +35,7 @@ const DOMtotal = document.querySelector('#total');
 const DOMbotonVaciar = document.querySelector('#boton-vaciar');
 
 // Funciones
+
 
 /**
 * Dibuja todos los productos a partir de la base de datos. No confundir con el carrito
@@ -199,3 +200,13 @@ DOMbotonVaciar.addEventListener('click', vaciarCarrito);
 // Inicio
 renderizarProductos();
 renderizarCarrito();
+
+//Storange
+const cocina = { id: 2, producto: "cocina"};
+localStorage.setItem("Cocina", cocina);
+const licudora = { id: 2, producto: "Licuadora"};
+localStorage.setItem("Licuadora", licudora);
+const batidora = { id: 2, producto: "Batidora"};
+localStorage.setItem("Batidora", batidora);
+const vaporera = { id: 2, producto: "Vaporera"};
+localStorage.setItem("Vaporera", vaporera);
